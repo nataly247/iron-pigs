@@ -1,0 +1,88 @@
+@import "variables";
+
+
+.menu {
+  width: 100%;
+  height: 91px;
+  background-color: $white;
+  display: flex;
+}
+
+.logo {
+  display: inline;
+  width: 35px;
+}
+
+.company-name {
+  height: 31px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-align: left;
+  color: $azure-two;
+}
+
+.company-name .second-part {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-align: left;
+  color: $warm-grey-two;
+}
+
+
+.menu-bar {
+  list-style: none;
+  display: inline-block;
+  width: 662px;
+  height: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: $azure;
+
+}
+ul.menu-bar{
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-bar li{
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 16px 0px 16px;
+}
+.menu-bar li:first-child {
+  margin-left: 0px;
+}
+.menu-bar li:last-child {
+  margin-right: 0px;
+}
+
+.menu-inner-block {
+  width: 100%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.pricing-btn {
+  width: 145px;
+  height: 45px;
+  border-radius: 22.5px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  background-color: $shamrock-green;
+  float: right;
+}
+
+.pricing-text {
+  width: 56px;
+  height: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fefefe;
+  display: inline-block;
+  vertical-align: middle;
+}
